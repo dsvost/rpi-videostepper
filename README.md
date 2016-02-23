@@ -92,3 +92,16 @@ For better understanding what is it let's go to investigate some config file exa
     "steps_order": ["A","B"]
 }
 ```
+#UART commands
+
+* TOGGLE_PAUSE 	- toggle pause :)
+* PAUSE		- pause playback
+* RESUME	- resume playback
+* STOP		- stop playback completly (going to the initial state to the first step)
+* NEXT		- going to the next step playback (first file in next step)
+* PREV		- going to the previous step (first file in previous step)
+* FIRE		- show nice flash as opengl es overlay
+
+#GPIO
+
+* GPIO25	- equivalent to the STOP uart command
