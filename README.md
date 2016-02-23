@@ -1,3 +1,5 @@
+#rpi-videostepper
+
 This is a video stepper for RaspberryPi.
 
 The main purpose of rpi-videostepper is show sequence of video files in a seamless manner by specific scenario that you can define in config file.
@@ -13,6 +15,7 @@ With rpi-videostepper you can create something like video game.
 
 For better understanding what is it let's go to investigate some config file example.
 
+```
 {
     "general": {
         "movies_path": "/opt/video-loops",
@@ -90,3 +93,4 @@ For better understanding what is it let's go to investigate some config file exa
     },
     "steps_order": ["A","B","C","D"]
 }
+```
