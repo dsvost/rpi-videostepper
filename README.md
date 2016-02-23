@@ -12,6 +12,8 @@ With rpi-videostepper you can create something like video game.
 
 #Dependencies
 
+* [omxplayer](https://github.com/popcornmix/omxplayer)
+The binary of omxplayer must be defined in pyomxplayer.py in the _OMXPLAYER_EXECUTABLE. By default it is /usr/bin/omxplayer.bin
 * [pyomxplayer](https://github.com/jbaiter/pyomxplayer)
 * pexpect
 * [pyopengles](https://github.com/peterderivaz/pyopengles)
