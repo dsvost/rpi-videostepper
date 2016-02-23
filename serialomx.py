@@ -661,5 +661,5 @@ def main():
 
     VideoStepper.Instance().stopStep()
 
-#with dctx:
-main()
+with dctx:
+    main()
