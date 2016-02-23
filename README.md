@@ -25,17 +25,13 @@ For better understanding what is it let's go to investigate some config file exa
         "stopbits": 1
     },
     "map": {
-        "A0": "./lab_1.mp4",
-        "A1": "./lab_2_1.mp4",
-	      "A2": "./lab_2_2.mp4",
-        "B0": "./lab_3_1_1.mp4",
-	      "B1": "./lab_3_1_2.mp4",
-        "B2": "./lab_3_2.mp4",
-        "C0": "./lab_empty_1.mp4",
-        "D0": "./ledi_phantomas.mp4"
+        "A0": "./v_1.mp4",
+        "A1": "./v_2.mp4",
+        "B0": "./v_3.mp4",
+	"B1": "./v_4.mp4",
     },
     "subtitles": {
-	    "A0": "./lab_1.srt"
+	"A0": "./v_1.srt"
     },
     "gpio": {
         "0": "A"
@@ -51,46 +47,22 @@ For better understanding what is it let's go to investigate some config file exa
                 "movie": "A1",
                 "loop": false,
                 "length": 43.02
-            },
-      	    {
-                "movie": "A2",
-                "loop": true,
-                "length": 115.6
-      	    }
+            }
         ],
         "B": [
             {
                 "movie": "B0",
                 "loop": false,
                 "length": 16.02,
-		            "flash": true
+		"flash": true
             },
       	    {
                 "movie": "B1",
                 "loop": true,
                 "length": 46.36
             }
-        ],
-        "C": [
-            {
-                "movie": "B2",
-                "loop": false,
-                "length": 13.2
-            },
-            {
-                "movie": "C0",
-                "loop": true,
-                "length": 22.5
-            }
-        ],
-        "D": [
-            {
-                "movie": "D0",
-                "loop": false,
-                "length": 19.9
-            }
         ]
     },
-    "steps_order": ["A","B","C","D"]
+    "steps_order": ["A","B"]
 }
 ```
