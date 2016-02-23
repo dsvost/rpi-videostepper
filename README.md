@@ -20,7 +20,7 @@ With rpi-videostepper you can create something like video game.
 
 For better understanding what is it let's go to investigate some config file example.
 
-```json
+```
 {
     "general": {
         "movies_path": "/opt/video-loops",	// path to video files
