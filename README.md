@@ -16,8 +16,13 @@ With rpi-videostepper you can create something like video game.
 * pexpect
 * [pyopengles](https://github.com/peterderivaz/pyopengles)
 
+#Limitations
+
+Only work with analog audio output of raspberry pi, because there is some problem with HDMI in a context of that project. 
+
 #Configuration
 
+The "config" file should be in general.movies path.
 For better understanding what is it let's go to investigate some config file example.
 
 ```
