@@ -1,0 +1,50 @@
+{
+  "general": {
+    "movies_path": "/opt/video-loops/VIDEO",
+    "baudrate": 9600,
+    "bytesize": 8,
+    "parity": "N",
+    "stopbits": 1
+  },
+  "map": {
+    "A0": "./v_1.mp4",
+    "A1": "./v_2.mp4",
+    "B0": "./v_3.mp4",
+    "B1": "./v_4.mp4"
+  },
+  "gpio": [],
+  "subtitles": {
+    "A0": "./v_1.srt"
+  },
+  "steps": {
+    "A": [
+      {
+        "movie": "A0",
+        "loop": false,
+        "length": 45.5
+      },
+      {
+        "movie": "A1",
+        "loop": true,
+        "length": 169.5
+      }
+    ],
+    "B": [
+      {
+        "movie": "B0",
+        "loop": false,
+        "length": 10,
+        "flash": true
+      },
+      {
+        "movie": "B1",
+        "loop": true,
+        "length": 57.6
+      }
+    ],
+  },
+  "steps_order": [
+    "A",
+    "B",
+  ]
+}
